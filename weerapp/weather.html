@@ -28,6 +28,12 @@
   <h3 id="min"></h3><br />
   <h3 id="max"></h3>
   </div>
+
+  <div id="morge">
+    <h3>TOMORROW</h3><br />
+    <h3 id="minM"></h3><br />
+    <h3 id="maxM"></h3>
+  </div>
 </div>
 
 	<script>
@@ -39,6 +45,8 @@ var img=document.getElementById("img");
 var vochtig=document.getElementById("vochtig");
 var q=document.getElementById("min");
 var m=document.getElementById("max");
+var minM=document.getElementById("minM");
+var maxM=document.getElementById("maxM");
 function getLocation()
   {
   if (navigator.geolocation)
@@ -61,8 +69,10 @@ function showPosition(position)
  
 
     vochtig.innerHTML= Math.round(data.currently.windSpeed*1.609344) + "km/u";
-   q.innerHTML="Min " + Math.round((data.daily.data[0].temperatureMin - 32)/1.8)+ " &degC ";
+    q.innerHTML="Min " + Math.round((data.daily.data[0].temperatureMin - 32)/1.8)+ " &degC ";
     m.innerHTML="Max " + Math.round((data.daily.data[0].temperatureMax - 32)/1.8)+ " &degC";
+    minM.innerHTML="Min " + Math.round((data.daily.data[1].temperatureMin - 32)/1.8)+ " &degC ";
+    maxM.innerHTML="Max " + Math.round((data.daily.data[1].temperatureMax - 32)/1.8)+ " &degC";
   
 var temp = data.currently.icon;
 if(temp == "partly-cloudy-day"){
@@ -94,11 +104,13 @@ else if(temp == "snow" || temp == "sleet"){
 if(temp == "clear-day"){
    document.body.style.background = "#f39c12";
 }
+else if(temp == "clear-night" || temp == "partly-cloudy-night" ){
+
+  document.body.style.background = "#34495e";
+
+}
 else{
-
   document.body.style.background = "#3498db";
-
-
 }
 //clear-night , rain , snow , sleet , wind , fog , hail , thunderstorm
 //wind speed miles per hour
@@ -121,13 +133,18 @@ else{
   }
   #rechts{
     width: 150px;
-height: 55px;
-float: right;
+    height: 55px;
+    float: right;
   }
   #links{
     width: 150px;
-height: 55px;
-float: left;
+    height: 55px;
+    float: left;
+  }
+  #morge{
+    width: 100%;
+    float: left;
+    text-align: center;
   }
   #troll{
     margin-left: auto;
@@ -174,10 +191,14 @@ float: left;
   }
 
   #minmax{
-margin-top: 79px;
+    margin-top: 79px;
   }
-  h3{
+  #rechts h3 {
     float: left;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+    #morge h3 {
     font-size: 20px;
     padding-top: 5px;
   }
