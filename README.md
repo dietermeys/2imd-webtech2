@@ -12,24 +12,24 @@ Add a hyperlink to your lab1 assignment here:
 * Liesbeth Vanaerschot: https://github.com/LiesbethVanaerschot/webtech2.git
 * Mahammed Zishan Khan: https://github.com/silent785/webtech2
 * Tom De Moor: https://github.com/tommooredotbe/webtech2-bestrepositoryeu
-* Caro Baten: https://github.com/ritchiejacobs/webtech2-lab1.git
+* Caro Baten: https://github.com/CaroBaten/webtech2
 * Anton Wijns: https://github.com/ritchiejacobs/webtech2-lab1.git
 * Jurgen Barbier: https://github.com/jurgb/2imd-webtech2-labs.git
-* Jens Ivens: https://github.com/jurgb/webtechweek1.git
+* Jens Ivens: https://github.com/JensIvens/webtech2.git
 * Yannick Nijs: https://github.com/yncredible/webtech2.git
 * Brent Stappaerts: https://github.com/BrentStappaerts/Webtechnologie.git
 * Bart Goris: https://github.com/bartgoris/Webtechnologie-2
 * Lars Peeters: http://larspeeters.github.io/
 * Moussa Chaabar: https://github.com/Moussa112/Kapsalon.git
-* Ziggy Verstrepen: https://github.com/ZiggyV/webtech2.git
-* Kimberly Gysbrechts Segers: https://github.com/jurgb/webtechweek1.git
+* Ziggy Verstrepen: http://ziggyv.github.io/webtech2/
+* Kimberly Gysbrechts Segers: https://github.com/Kimberlygs/webtech2.git
 * Mattias Delang: https://github.com/mattiasdelang/webtech2
-* Dieter Meys: https://github.com/dietermeys/webtech2.git
-* Christof Vanoppen: https://github.com/mattiasdelang/recept.git
+* Dieter Meys: https://github.com/dietermeys/webtech2
+* Christof Vanoppen: https://github.com/ChristofVanoppen/Webtech2
 * Mike Radino: https://github.com/mikeradino/2imd-webtech2-mikeradino
 * Maïteh Mertens: https://github.com/Maiteh/Webtech2.git
 * Tom Dirix: https://github.com/tomdirix/Webtech2
 * Mitchell Desmet: https://github.com/mdsmt/webtech2
-* Glenn Van Haute: https://github.com/Moussa112/Kapsalon.git
+* Glenn Van Haute: https://github.com/GlennVanHaute/webtech-labs.git
 * Laurissa Bregman: https://github.com/Laulitz/webtechOefeningen.git
 * Kim Janssens: https://github.com/kimjanssens/webtech2
